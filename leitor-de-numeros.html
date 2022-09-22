@@ -1,0 +1,29 @@
+<!--Crie um algoritmo para ler N números, some-os e faça a média entre os números-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leitor de Números e Cálculo de Médias</title>
+    </head>
+    <body>
+        <script>
+            let numMaterias = parseInt(prompt('Informe quantas matérias você tem, por favor!'))
+
+            let valor = parseInt(prompt('Agora insira o valor da nota de cada matéria.'))
+
+            let somaDasNotas = valor++
+
+            while (numMaterias <1){
+                alert('Agora insira o valor de sua outra nota.')
+                valor = parseInt(prompt('Agora insira o valor da nota de cada matéria.'))
+            }
+            
+            let resultado = somaDasNotas / numMaterias
+            document.write(`<p> A média de ${somaDasNotas} / ${numMaterias} = ${resultado} </p>`)
+            3
+        </script>
+    </body>
+    </html>
